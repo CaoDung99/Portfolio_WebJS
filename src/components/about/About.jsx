@@ -1,5 +1,9 @@
 import "./about.css";
-import Award from "../../img/award.png";
+import Javascript  from "../../img/javascript-logo@2x.png";
+import Css  from "../../img/css-logo@2x.png";
+import Google  from "../../img/google-logo@2x.png";
+import Sequence  from "../../img/sequence-logo.png";
+import Html  from "../../img/html-logo@2x.png";
 
 const About = () => {
   return (
@@ -27,14 +31,28 @@ const About = () => {
           aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
         </p>
         <div className="a-award">
-          <img src={Award} alt="" className="a-award-img" />
-          <div className="a-award-texts">
-            <h4 className="a-award-title">International Design Awards 2021</h4>
-            <p className="a-award-desc">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
-            </p>
-          </div>
+          <ul className="a-award-ItemList">
+            <li className="a-award-item">
+              <img src={Javascript} alt="" className="a-award-icon" />
+              <span className="a-award-Text">JavaScript ( React...)</span>
+            </li>
+            <li className="a-award-item">
+              <img src={Html} alt="" className="a-award-icon" />
+              <span className="a-award-Text">Semantic HTML</span>
+            </li>
+            <li className="a-award-item">
+              <img src={Css} alt="" className="a-award-icon" />
+              <span className="a-award-Text">Responsive CSS</span>
+            </li>
+            <li className="a-award-item">
+              <img src={Sequence} alt="" className="a-award-icon" />
+              <span className="a-award-Text">Animation</span>
+            </li>
+            <li className="a-award-item">
+              <img src={Google} alt="" className="a-award-icon" />
+              <span className="a-award-Text">SEO</span>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
