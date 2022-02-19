@@ -51,10 +51,30 @@
 }
 
 .a-award {
-    margin-top: 50px;
+    display: flex;
+}
+
+.a-award-ItemList {
+    margin: 0;
+    padding: 0 1em;
+    font-size: 1.0588235294em;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.a-award-item {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    list-style: none;
+}
+
+.a-award-icon {
+    margin-right: 10px;
+}
+
+.a-award-Text {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 @media screen and (max-width:480px) {
