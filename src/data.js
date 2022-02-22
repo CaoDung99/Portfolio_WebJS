@@ -8,17 +8,17 @@ export const products = [
   {
     id: 2,
     img: "",
-    link: "http://lama.dev",
+    link: "https://nifty-roentgen-b9df72.netlify.app/",
   },
   {
     id: 3,
     img: "",
-    link: "http://lama.dev",
+    link: "https://caodung99.github.io/band_html/",
   },
   {
     id: 4,
     img: "",
-    link: "http://lama.dev",
+    link: "https://caodung99.github.io/Portfolio_html/",
   },
   {
     id: 5,
