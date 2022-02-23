@@ -28,6 +28,6 @@ export const products = [
   {
     id: 6,
     img: "https://scontent.fsgn5-11.fna.fbcdn.net/v/t39.30808-6/274661352_3212374922417747_8854226059835720223_n.jpg?stp=dst-jpg_p960x960&_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=nMY574e6yfUAX90BjCq&_nc_oc=AQmALcjmQqp_soD8gFsFB_hWVy74yeA0bViL8cni2TMjbiNDc_M0dXfsC19qEuIPoKA&_nc_ht=scontent.fsgn5-11.fna&oh=00_AT-LIJELzqc9G1j9vFtgmbQS5ZckHhbrGSmjZPr2whKoRA&oe=621B5E57",
-    link: "http://lama.dev",
+    link: "https://compassionate-ramanujan-23fca1.netlify.app/",
   },
 ];
