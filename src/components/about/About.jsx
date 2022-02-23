@@ -21,14 +21,12 @@ const About = () => {
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          It is a long established fact that a reader will be distracted by the
-          readable content.
+          Front-End developer is an adventure for a website.
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+          Passionate about front-end development. I put a lot of effort into teaching myself about web design. Self-study and self-study.
+ Virtues such as pointing, being careful, meticulous, focusing on observing and listening will help me a lot in the process of personal development.
+          <br/>I know about BEM and some of the languages that I use:
         </p>
         <div className="a-award">
           <ul className="a-award-ItemList">
